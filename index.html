@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Valentine to My Favorite Girl</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h1>Login - Valentine Edition 💖</h1>
+    <form id="loginForm">
+      <div class="input-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      </div>
+      <button type="submit" id="loginBtn">Login</button>
+    </form>
+  </div>
+
+  <div id="post-login" class="post-login-container" style="display:none;">
+    <button id="readyButton">Apakah sayang sudah siap? 💖</button>
+    <div id="romanticMessage" style="display:none;">
+      <h2>Sayang, kamu adalah segalanya bagiku. Aku sangat mencintaimu! 💕</h2>
+      <p>Kamu adalah cahaya dalam hidupku, dan aku berjanji untuk selalu berada di sampingmu.</p>
+      <div class="photo-container">
+        <h3>Foto-foto kita 💑</h3>
+        <div class="photo-slot" id="photo1"></div>
+        <div class="photo-slot" id="photo2"></div>
+        <div class="photo-slot" id="photo3"></div>
+        <div class="photo-slot" id="photo4"></div>
+        <div class="photo-slot" id="photo5"></div>
+      </div>
+    </div>
+    <!-- Audio Element for Playing Music -->
+    <audio id="music" src="Blue - Yung Kai.mp3" preload="auto"></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
